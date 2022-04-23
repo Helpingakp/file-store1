@@ -48,13 +48,13 @@ async def start(bot: Client, cmd: Message):
 				[
 					[
 						InlineKeyboardButton("🔆 Sᴜᴘᴘᴏʀᴛ 🔆", url="https://t.me/request_your_choice"),
-						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://github.com/Helpingakp/file-store1"),
+						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/Bull4movies"),
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
 						InlineKeyboardButton("👨‍🔧 Dᴇᴠs ", callback_data="aboutdevs"),
-						InlineKeyboardButton("💢 Sᴏᴜʀᴄᴇ ", url="https://GitHub.com/GreyMatter_bots/TG-FileStore"),
-						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/GreyMatter_bots")
+						InlineKeyboardButton("💢 Sᴏᴜʀᴄᴇ ", url="https://github.com/Helpingakp/file-store1"),
+						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/Bull4movies")
 					],
                                         [
 						InlineKeyboardButton("🔐 Cʟᴏsᴇ ", callback_data="closeMessage") 
@@ -368,7 +368,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/GreyMatters_bots_duscussion).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/request_your_choice).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
